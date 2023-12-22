@@ -59,7 +59,6 @@ We will explore 4 CNN types.
 3) Pretrained InceptionNet
 4) Pretrained EfficientNet
 
-Click [here](https://docs.google.com/document/d/1rzPfFhG4TEHhzyGpa0jx905BPoGSowLiE98WUArPvhM/edit?usp=sharing) to learn more about the basic CNN model for classification(conv2D layers, pooling, dense layers, and softmax activiations.
+Click [here](https://docs.google.com/document/d/1rzPfFhG4TEHhzyGpa0jx905BPoGSowLiE98WUArPvhM/edit?usp=sharing) to learn more about the basic CNN model for classification (conv2D layers, pooling, dense layers, and softmax activiations).
 
-To learn more about the pre-trained models, click [here](https://docs.google.com/document/d/1tONf-wTolvjdriQJEn178vQQC4XlJ6PoGlZtUC6LbvA/edit?usp=sharing).
-
+Click [here](https://docs.google.com/document/d/1tONf-wTolvjdriQJEn178vQQC4XlJ6PoGlZtUC6LbvA/edit?usp=sharing) to learn more about the pre-trained models.
