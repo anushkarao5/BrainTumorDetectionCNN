@@ -1,5 +1,5 @@
 # BrainTumorDetectionCNN
-### Detecting Glioma, Meningioma, and Pituitary Brain Tumors Using Convolutional Neural Networks
+### Detecting Gliomas, Meningiomas, and Pituitary Brain Tumors Using Convolutional Neural Networks
 Access the full colab notebook [here](https://colab.research.google.com/drive/1rvXt8XBbyUkSVo73d0YCBkaSmE9ebSRx?usp=sharing) for all code and in-depth explanations. 
 
 ## Table of Contents:
