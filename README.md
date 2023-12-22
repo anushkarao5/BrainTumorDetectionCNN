@@ -35,7 +35,7 @@ Pituitary Tumors:
 - Pituitary tumors are growths that develop in the pituitary gland, a small gland at the base of the brain that regulates hormone production. Symptoms of pituitary tumors can include hormonal imbalances, changes in growth, and visual disturbances.
 
 ## Evaluation Metrics 
-We will be looking at accuracy, precision, and recall. In our problem domain, we favor a classifier with high recall in the tumor classes. Why is this? Missing a true positive (a tumor case) carries more significant consequences than misclassifying a non tumor case as a tumor case. Prioritizing high recall in the tumor classes will allow us to capture as many true tumor cases as possible. While this approach may lead to lower precision in the tumor classes– the classifier may assign non-tumor cases to tumor classes more liberally– , we will be able to minimize the risk of overlooking true tumor cases.
+We will evaluate the performance of our model using accuracy, precision, and recall. In our problem domain, we favor a classifier with high recall in the tumor classes. Why is this? Missing a true positive (a tumor case) carries more significant consequences than misclassifying a non-tumor case as a tumor case. Prioritizing high recall in the tumor classes will allow us to capture as many true tumor cases as possible. While this approach may lead to lower precision in the tumor classes– the classifier may assign non-tumor cases to tumor classes more liberally– , we will be able to minimize the risk of overlooking true tumor cases.
 
 ## Model Types
 **ResNet50**
