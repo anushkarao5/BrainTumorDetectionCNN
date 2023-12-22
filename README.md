@@ -17,8 +17,8 @@ The objectives of this project are to:
 - Develop a convolutional neural network specialized in detecting glioma, pituitary, and meningioma brain tumors
 - Utilize pre-trained models to increase recall in tumor classes
 ## Project Outcomes 
-- Developed a simple CNN with a minimum 93% recall in all tumor classes and an average recall of 94% in tumor classes
-- Applied transfer learning to EfficientNetB0 to achieve over 95% recall for all tumor classes and 96.4% average recall in the tumor classes
+- Developed a simple CNN with a minimum of 93% recall in all tumor classes and an average recall of 94% in tumor classes
+- Applied transfer learning to EfficientNetB0 to achieve over 95% recall in all tumor classes and 96.4% average recall in the tumor classes
 
 ## Background Information
 Advancements in medical image classification hold the potential to streamline the tumor detection process. While not unerring, technology-based classification offers a preliminary categorization of tumors, facilitating quicker decision-making for professionals.
