@@ -35,11 +35,15 @@ Pituitary Tumors:
 - Pituitary tumors are growths that develop in the pituitary gland, a small gland at the base of the brain that regulates hormone production. Symptoms of pituitary tumors can include hormonal imbalances, changes in growth, and visual disturbances.
 
 ## Understanding the Data
-This data was taken from [Kaggle’s Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset?rvi=1). 
-The dataset consists of a training and testing folder. 
-There are 5712 images in the training set and 1311 images in the test set. 
-I further split the test set into a testing set and a validation set. 
-Here are the distribution of images per class: 
+- This data was taken from [Kaggle’s Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset?rvi=1). 
+- The dataset consists of a training and testing folder. 
+  - There are 5712 images in the training set and 1311 images in the test set. 
+- I further split the test set into a testing set and a validation set. 
+Here are the distribution of images per class:
+
+<p align="center">
+  <img src="Images/DataDistribution.png" alt="Image Alt Text" width="500px" height="auto">
+</p>
 
 
 ## Evaluation Metrics 
