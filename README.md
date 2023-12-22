@@ -2,7 +2,7 @@
 ### Detecting Gliomas, Meningiomas, and Pituitary Brain Tumors Using Convolutional Neural Networks
 Access the full colab notebook [here](https://colab.research.google.com/drive/1Pt5eP8k2_BcnuVyksN1Qu_O1P0XF4yb3?usp=sharing) for all code and in-depth explanations. 
 
-## Table of Contents:
+## Table of Contents
 - [Project Objective](#project-objective)
 - [Project Outcomes](#project-outcomes)
 - [Background Information](#background-information)
@@ -33,12 +33,15 @@ Advancements in medical image classification hold the potential to streamline th
 The three tumor types we will focus on detecting are gliomas, meningiomas, and pituitary tumors. 
 
 Gliomas:
+
 - Gliomas are tumors that arise from glial cells, which are supportive cells in the brain. Symptoms of gliomas vary depending on the location and size of the tumor. Treatment options include surgery, radiation therapy, and chemotherapy.
 
 Meningiomas:
+
 - Meningiomas are tumors that originate in the meninges, the layer of tissue covering the brain and spinal cord. These tumors are usually benign and slow-growing, but they can cause issues if they grow or press on nearby structures.
   
 Pituitary Tumors:
+
 - Pituitary tumors are growths that develop in the pituitary gland, a small gland at the base of the brain that regulates hormone production. Symptoms of pituitary tumors can include hormonal imbalances, changes in growth, and visual disturbances.
 
 
