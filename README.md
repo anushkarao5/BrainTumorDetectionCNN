@@ -37,4 +37,19 @@ Pituitary Tumors:
 ## Evaluation Metrics 
 We will be looking at accuracy, precision, and recall. In our problem domain, we favor a classifier with high recall in the tumor classes. Why is this? Missing a true positive (a tumor case) carries more significant consequences than misclassifying a non tumor case as a tumor case. Prioritizing high recall in the tumor classes will allow us to capture as many true tumor cases as possible. While this approach may lead to lower precision in the tumor classes– the classifier may assign non-tumor cases to tumor classes more liberally– , we will be able to minimize the risk of overlooking true tumor cases.
 
+## Model Types
+**ResNet50**
+Residual Networks (ResNets) are designed to address challenges in training deep neural networks, particularly the vanishing gradient problem. Resnets mitigate this issue through the use of shortcut connections that allow gradients to flow directly to earlier layers without passing through all intermediate layers. 
+The building block of a ResNet is the residual block. This block includes both a shortcut path and a main path. The shortcut path bypasses the convolutional layers and directly connects the input to the output, while the main path processes the input through the convolutional layers. The output of the main path F(x) is then added to the output of the shortcut path (x), yielding the output of the residual block y=F(x)+x. 
+The goal is to make the output of the main path F(x) as close to zero as possible so that the output y approximates the input x. The network learns to adjust the weights in the main path to minimize F(x). Consequently, the output y becomes primarily influenced by the shortcut path, which involves few layers, preventing the issue of the vanishing gradients. 
+
+**InceptionNet**
+InceptionNet, also known as GoogleNet, uses inception modules, which employ parallel filters of different sizes at the same layer to capture features at various spatial scales. An inception model typically consists of 1x1, 3x3, and 5x5 convolutional filters followed by a max pooling layer. The filters are applied in parallel, and their outputs are concatenated before being passed to the next module in the network. 
+The core concept behind the inception modules is to leverage filters of different sizes to capture information at both global and local scales: larger kernels are useful for information that is distributed globally, while smaller kernels are better for information that is distributed locally. 
+By combining filters of various sizes, the InceptionNet network can represent a wide range of features, making it ideal for computer vision applications. 
+
+**Efficient Net**
+EfficientNet employs a compound scaling approach to efficiently scale up models by maintaining a fixed ratio across three key dimesions: width, depth, and image resolution. This scaling method uniformly scales all three dimensions with a fixed ratio, contributing to a harmonious adjustment of model size.  
+The compound scaling is controlled by a single parameter phi, which determines the model size. Larger phi values tend to result in larger and more powerful models. 
+This technique has resulted in increased performance in various computer vision tasks. 
 
