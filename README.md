@@ -23,7 +23,7 @@ The objectives of this project are to:
 ## Background Information
 Advancements in medical image classification hold the potential to streamline the tumor detection process. While not unerring, technology-based classification offers a preliminary categorization of tumors, facilitating quicker decision-making for professionals.
 
-The three tumor types we will focus on are gliomas, meningiomas, and pituitary tumors. 
+The three tumor types we will focus on detecting are gliomas, meningiomas, and pituitary tumors. 
 
 Gliomas:
 - Gliomas are tumors that arise from glial cells, which are supportive cells in the brain. Symptoms of gliomas vary depending on the location and size of the tumor. Treatment options include surgery, radiation therapy, and chemotherapy.
