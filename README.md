@@ -23,6 +23,10 @@ The objectives of this project are to:
 ## Background Information
 Advancements in medical image classification hold the potential to streamline the tumor detection process. While not unerring, technology-based classification offers a preliminary categorization of tumors, facilitating quicker decision-making for professionals.
 
+<p align="center">
+  <img src="Images/brain_tumor_background_image.jpeg" alt="Image Alt Text" width="300px" height="auto">
+</p>
+
 The three tumor types we will focus on detecting are gliomas, meningiomas, and pituitary tumors. 
 
 Gliomas:
@@ -34,9 +38,6 @@ Meningiomas:
 Pituitary Tumors:
 - Pituitary tumors are growths that develop in the pituitary gland, a small gland at the base of the brain that regulates hormone production. Symptoms of pituitary tumors can include hormonal imbalances, changes in growth, and visual disturbances.
 
-<p align="center">
-  <img src="Images/brain_tumor_background_image.jpeg" alt="Image Alt Text" width="300px" height="auto">
-</p>
 
 ## Understanding the Data
 - This data was taken from [Kaggle’s Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset?rvi=1). 
