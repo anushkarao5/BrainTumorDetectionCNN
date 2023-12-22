@@ -27,6 +27,8 @@ Advancements in medical image classification hold the potential to streamline th
   <img src="Images/brain_tumor_background_image.jpeg" alt="Image Alt Text" width="500px" height="auto">
 </p>
 
+[Image Credits](https://awaregleneaglesglobalhospitallbnagar.com/health-plus-blog/what-are-the-common-sign-and-symptoms-of-a-brain-tumour/) for image credits.
+
 The three tumor types we will focus on detecting are gliomas, meningiomas, and pituitary tumors. 
 
 Gliomas:
