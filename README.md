@@ -14,7 +14,7 @@ Access the full colab notebook [here](https://colab.research.google.com/drive/1P
   
 ## Project Objective
 The objectives of this project are to:
-- Develop a convolutional neural network specialized in detecting glioma, pituitary, and meningioma brain tumors
+- Develop a convolutional neural network specialized in detecting gliomas, meningiomas, and pituitary brain tumors
 - Utilize pre-trained models to increase recall in tumor classes
 ## Project Outcomes 
 - Developed a simple CNN with a minimum of 93% recall in all tumor classes and an average recall of 94% in tumor classes
