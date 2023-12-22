@@ -34,6 +34,10 @@ Meningiomas:
 Pituitary Tumors:
 - Pituitary tumors are growths that develop in the pituitary gland, a small gland at the base of the brain that regulates hormone production. Symptoms of pituitary tumors can include hormonal imbalances, changes in growth, and visual disturbances.
 
+<p align="center">
+  <img src="Images/DataDistribution.png" alt="Image Alt Text" width="700px" height="auto">
+</p>
+
 ## Understanding the Data
 - This data was taken from [Kaggle’s Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset?rvi=1). 
 - The dataset consists of a training and testing folder. 
