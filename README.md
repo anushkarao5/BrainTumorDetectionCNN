@@ -35,7 +35,7 @@ Pituitary Tumors:
 - Pituitary tumors are growths that develop in the pituitary gland, a small gland at the base of the brain that regulates hormone production. Symptoms of pituitary tumors can include hormonal imbalances, changes in growth, and visual disturbances.
 
 <p align="center">
-  <img src="Images/DataDistribution.png" alt="Image Alt Text" width="700px" height="auto">
+  <img src="Images/brain_tumor_background_image.jpeg" alt="Image Alt Text" width="300px" height="auto">
 </p>
 
 ## Understanding the Data
