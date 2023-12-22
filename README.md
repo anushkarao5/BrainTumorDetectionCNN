@@ -40,10 +40,10 @@ Pituitary Tumors:
   - There are 5712 images in the training set and 1311 images in the test set. 
 - I further split the test set into a testing set and a validation set.
   
-Here are the distribution of images per class:
+Here is the distribution of images per class:
 
 <p align="center">
-  <img src="Images/DataDistribution.png" alt="Image Alt Text" width="600px" height="auto">
+  <img src="Images/DataDistribution.png" alt="Image Alt Text" width="700px" height="auto">
 </p>
 
 As we can see, there are significantly more no tumor cases than tumor cases, especially in the validation and testing sets.  Since the models have more instances of no tumor cases to learn from, we expect that they will be best able to detect no tumor cases. 
