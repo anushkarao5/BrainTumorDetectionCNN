@@ -24,7 +24,7 @@ The objectives of this project are to:
 Advancements in medical image classification hold the potential to streamline the tumor detection process. While not unerring, technology-based classification offers a preliminary categorization of tumors, facilitating quicker decision-making for professionals.
 
 <p align="center">
-  <img src="Images/brain_tumor_background_image.jpeg" alt="Image Alt Text" width="300px" height="auto">
+  <img src="Images/brain_tumor_background_image.jpeg" alt="Image Alt Text" width="500px" height="auto">
 </p>
 
 The three tumor types we will focus on detecting are gliomas, meningiomas, and pituitary tumors. 
