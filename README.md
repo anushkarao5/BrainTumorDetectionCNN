@@ -26,7 +26,6 @@ Advancements in medical image classification hold the potential to streamline th
 <p align="center">
   <img src="Images/brain_tumor_background_image.jpeg" alt="Image Alt Text" width="500px" height="auto">
 </p>
-
 <p align="center">
   <a href="https://awaregleneaglesglobalhospitallbnagar.com/health-plus-blog/what-are-the-common-sign-and-symptoms-of-a-brain-tumour/">Image Credits</a>
 </p>
