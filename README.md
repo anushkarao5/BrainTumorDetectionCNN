@@ -54,10 +54,12 @@ We will evaluate the performance of our model using accuracy, precision, and rec
 
 ## Model Types
 We will explore 4 CNN types.
-- 1) A basic three-layered CNN with global max pooling
-- 2) Pretrained ResNet50
-- 3) Pretrained InceptionNet
-- 4) Pretrained EfficientNet
+1) A basic three-layered CNN with global max pooling
+2) Pretrained ResNet50
+3) Pretrained InceptionNet
+4) Pretrained EfficientNet
+
 Click [here](https://docs.google.com/document/d/1rzPfFhG4TEHhzyGpa0jx905BPoGSowLiE98WUArPvhM/edit?usp=sharing) to learn more about the basic CNN model for classification(conv2D layers, pooling, dense layers, and softmax activiations.
+
 To learn more about the pre-trained models, click [here](https://docs.google.com/document/d/1tONf-wTolvjdriQJEn178vQQC4XlJ6PoGlZtUC6LbvA/edit?usp=sharing).
 
