@@ -75,7 +75,7 @@ Click [here](https://docs.google.com/document/d/1rzPfFhG4TEHhzyGpa0jx905BPoGSowL
 Click [here](https://docs.google.com/document/d/1tONf-wTolvjdriQJEn178vQQC4XlJ6PoGlZtUC6LbvA/edit?usp=sharing) to learn more about the pre-trained models.
 
 ## Model Performance
-To evaluate model performance, let us see how well each classifier recognizes each type of tumor. 
+To evaluate model performance, let us see how well each classifier recognizes each tumor type. 
 
 **Gliomas**
 <p align="center">
@@ -95,7 +95,7 @@ To evaluate model performance, let us see how well each classifier recognizes ea
 
 - ResNet50 has the highest recall of 97.4%. 
 - EffB0 and IV3 perform relatively well in comparison, with recalls of 95.4% and 93.5% respectively.
-- CNNS performed worse, with a recall of 86.3%. 
+- The simple CNN performed the worst, with a recall of 86.3%. 
 - Ranked from best to worst: ResNet50, EffB0, IV3, CNN. 
 
 **Pituitary Tumors**
