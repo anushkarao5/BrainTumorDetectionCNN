@@ -1,6 +1,6 @@
 # BrainTumorDetectionCNN
 ### Detecting Gliomas, Meningiomas, and Pituitary Brain Tumors Using Convolutional Neural Networks
-Access the full colab notebook [here](https://nbviewer.org/github/anushkarao5/BrainTumorDetectionCNN/blob/main/BrainTumorDetection.ipynb) for all code and in-depth explanations. 
+Access the full notebook [here](https://nbviewer.org/github/anushkarao5/BrainTumorDetectionCNN/blob/main/BrainTumorDetection.ipynb) for all code and in-depth explanations. 
 
 ## Table of Contents
 - [Project Objective](#project-objective)
@@ -12,13 +12,14 @@ Access the full colab notebook [here](https://nbviewer.org/github/anushkarao5/Br
 - [Model Performance](#model-performance)
 - [Conclusions](#conclusions)
   
-## Project Objective
+## Project Objectives
 The objectives of this project are to:
 - Develop a convolutional neural network specialized in detecting gliomas, meningiomas, and pituitary brain tumors
 - Utilize pre-trained models to increase recall in tumor classes
+- 
 ## Project Outcomes 
-- Developed a simple CNN with a minimum of 93% recall in all tumor classes and an average recall of 94% in tumor classes
-- Applied transfer learning to EfficientNetB0 to achieve over 95% recall in all tumor classes and 96.4% average recall in the tumor classes
+- Developed a simple CNN with a minimum of 86.5% recall in all tumor classes and an average recall of 93.8% in tumor classes
+- Applied transfer learning to EfficientNetB0 model to achieve over 95% recall in all tumor classes and 95.7% average recall in the tumor classes
 
 ## Background Information
 Advancements in medical image classification hold the potential to streamline the tumor detection process. While not unerring, technology-based classification offers a preliminary categorization of tumors, facilitating quicker decision-making for professionals.
