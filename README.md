@@ -61,7 +61,7 @@ Here is the distribution of images per class:
 As we can see, there are significantly more no-tumor cases than tumor cases, especially in the validation and testing sets. Since the models have more instances of no tumor cases to learn from, we expect the models to perform best in detecting no tumor cases. Conversely, the distribution of images among the various tumor classes is comparable, so we expect the models to demonstrate similar performance in detecting tumor cases across these classes.
 
 ## Evaluation Metrics 
-We will evaluate the performance of our model using accuracy, precision, and recall. **In our problem domain, we favor a classifier with high recall in the tumor classes.** Why is this? Missing a true positive (a tumor case) carries more significant consequences than misclassifying a non-tumor case as a tumor case. Prioritizing high recall in the tumor classes will allow us to capture as many true tumor cases as possible. While this approach may lead to lower precision in the tumor classes– the classifier may assign non-tumor cases to tumor classes more liberally–, we will be able to minimize the risk of overlooking true tumor cases.
+We will evaluate the performance of our model using accuracy, precision, and recall. **In our problem domain, we favor a classifier with high recall in the tumor classes.** Why is this? Missing a true positive (a tumor case) carries more significant consequences than misclassifying a non-tumor case as a tumor case. Prioritizing high recall in the tumor classes allows us to capture as many true tumor cases as possible. While this approach may reduce precision in the tumor classes– the classifier may assign non-tumor cases to tumor classes more liberally–, it minimizes the risk of overlooking true tumor cases.
 
 ## Model Types
 We will explore 4 CNN types.
@@ -70,7 +70,7 @@ We will explore 4 CNN types.
 3) Pretrained InceptionNet
 4) Pretrained EfficientNet
 
-Click [here](https://docs.google.com/document/d/1rzPfFhG4TEHhzyGpa0jx905BPoGSowLiE98WUArPvhM/edit?usp=sharing) to learn more about the basic CNN model for classification (conv2D layers, pooling, dense layers, and softmax activiations).
+Click [here](https://docs.google.com/document/d/1rzPfFhG4TEHhzyGpa0jx905BPoGSowLiE98WUArPvhM/edit?usp=sharing) to learn more about the basic CNN model for classification (conv2D layers, pooling, dense layers, and softmax activiation).
 
 Click [here](https://docs.google.com/document/d/1tONf-wTolvjdriQJEn178vQQC4XlJ6PoGlZtUC6LbvA/edit?usp=sharing) to learn more about the pre-trained models.
 
