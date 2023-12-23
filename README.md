@@ -108,3 +108,28 @@ To evaluate model performance, let us see how well each classifier is able to re
 - Note that all three classifiers have the best recall in this class. 
 - Ranked from best to worst: ResNet50, CNN, EffB0, and IV3
 
+
+## Conclusions
+
+Based on the above observations, we know that different models have different strengths in which tumors they are best able to classify. To get a more singular measurement, let us average the recall and precision of all three tumor types for each model. 
+
+<p align="center">
+  <img src="Images/AvgPvR.png" alt="Image Alt Text" width="700px" height="auto">
+</p>
+
+- Our best classifier based on average tumor recall is the efficient net model (95.7% average recall and 95.6% average precision.
+- ResNet is a close second, with an average recall of 94.7% and an average precision of 95.3%. 
+- Our three-level CNN fell in ranks with an average tumor recall of 93.8% and an average tumor precision of 93.6%. 
+- The IV3 model performed worse both in terms of recall and precision. Average recall was just short of 90% and average precision was 90.1%. 
+
+**So which classifier is the best?**
+- It's probably easier to determine which classifier is not the best-- Inception V3. This classifier has a significantly lower average tumor recall due to the low recall in the glioma class. The other classifiers are a bit more difficult to determine. The best classifiers depend on which disease we are trying to detect!
+- CNNS and EffB0s are best for glioma, ResNet50 is the best for meningiomas, and ResNets and CNNs are the best for pituitary.
+- *So our choice of which classifier depends on the type of tumor we are screening for.*
+- However, if we want a certain answer, based on the macro tumor recall, EffB0 is the best classifier.
+- Here we have found classifiers that are able to detect the tumor class for each with a minimum of 95% recall. Not too bad!
+
+
+
+
+
