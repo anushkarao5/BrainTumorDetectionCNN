@@ -48,7 +48,7 @@ The three tumor types we will focus on detecting are gliomas, meningiomas, and p
 
 ## Understanding the Data
 - This data was taken from [Kaggle’s Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset?rvi=1). 
-- The dataset consists of a training and testing folder. 
+- The dataset consists of a preassigned training and testing set. 
   - There are 5712 images in the training set and 1311 images in the test set. 
 - I further split the test set into a testing set and a validation set.
   
@@ -58,8 +58,7 @@ Here is the distribution of images per class:
   <img src="Images/DataDistribution.png" alt="Image Alt Text" width="700px" height="auto">
 </p>
 
-As we can see, there are significantly more no tumor cases than tumor cases, especially in the validation and testing sets.  Since the models have more instances of no tumor cases to learn from, we expect that they will be best able to detect no tumor cases. 
-However, there is a similar amount of images across the tumor classes. We expect the models to detect tumor cases across all cases similarly because the distribution of tumor cases is similar.
+As we can see, there are significantly more no-tumor cases than tumor cases, especially in the validation and testing sets. Since the models have more instances of no tumor cases to learn from, we expect the models to perform best in detecting no tumor cases. Conversely, the distribution of images among the various tumor classes is comparable, so we expect the models to demonstrate similar performance in detecting tumor cases across these classes.
 
 ## Evaluation Metrics 
 We will evaluate the performance of our model using accuracy, precision, and recall. **In our problem domain, we favor a classifier with high recall in the tumor classes.** Why is this? Missing a true positive (a tumor case) carries more significant consequences than misclassifying a non-tumor case as a tumor case. Prioritizing high recall in the tumor classes will allow us to capture as many true tumor cases as possible. While this approach may lead to lower precision in the tumor classes– the classifier may assign non-tumor cases to tumor classes more liberally–, we will be able to minimize the risk of overlooking true tumor cases.
