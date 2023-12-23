@@ -73,3 +73,11 @@ We will explore 4 CNN types.
 Click [here](https://docs.google.com/document/d/1rzPfFhG4TEHhzyGpa0jx905BPoGSowLiE98WUArPvhM/edit?usp=sharing) to learn more about the basic CNN model for classification (conv2D layers, pooling, dense layers, and softmax activiations).
 
 Click [here](https://docs.google.com/document/d/1tONf-wTolvjdriQJEn178vQQC4XlJ6PoGlZtUC6LbvA/edit?usp=sharing) to learn more about the pre-trained models.
+
+## Model Performance
+To evaluate model performance, let us see how well each classifier is able to recognize each type of tumor. 
+
+**Gliomas**
+<p align="center">
+  <img src="Images/PvRGlioma.png" alt="Image Alt Text" width="700px" height="auto">
+</p>
