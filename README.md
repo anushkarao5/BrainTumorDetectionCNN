@@ -75,7 +75,7 @@ Click [here](https://docs.google.com/document/d/1rzPfFhG4TEHhzyGpa0jx905BPoGSowL
 Click [here](https://docs.google.com/document/d/1tONf-wTolvjdriQJEn178vQQC4XlJ6PoGlZtUC6LbvA/edit?usp=sharing) to learn more about the pre-trained models.
 
 ## Model Performance
-To evaluate model performance, let us see how well each classifier is able to recognize each type of tumor. 
+To evaluate model performance, let us see how well each classifier recognizes each type of tumor. 
 
 **Gliomas**
 <p align="center">
@@ -83,8 +83,8 @@ To evaluate model performance, let us see how well each classifier is able to re
 </p>
 
 - Our simple CNN has the highest recall (96.5%) with EffB0 following shortly after (95.1%). While the CNN has around 1.5% higher recall, it has 5% lower precision than the EffB0 model. 
-- ResNet50 has 87.5% recall. While this number may seem high, we must consider it in terms of our problem domain: For every 100 patients with gliomas, 12.5 percent are not detected. That is a costly mistake!
-- Inception Net is by far our poorest classifier, with a recall of less than 80%. 
+- ResNet50 has 87.5% recall. While this number may seem high, we must consider it in terms of our problem domain: For every 100 patients with gliomas, 12.5 go undetected. That is a costly mistake!
+- Inception Net is our poorest classifier, with a recall of less than 80%. 
 - Ranked from best to worst: CNN, EffB0, ResNet50, IV3
 
 **Meningiomas**
