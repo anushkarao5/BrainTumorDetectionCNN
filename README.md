@@ -87,3 +87,16 @@ To evaluate model performance, let us see how well each classifier is able to re
 - Inception Net is by far our poorest classifier, with a recall of less than 80%. 
 - Ranked from best to worst: CNN, EffB0,ResNet50, IV3
 
+**Meningiomas**
+
+<p align="center">
+  <img src="Images/PvRMeningioma.png" alt="Image Alt Text" width="700px" height="auto">
+</p>
+
+- ResNet50 has the highest recall of 97.4%. 
+- EffB0 and IV3 perform relatively well in comparison, with recalls of 95.4% and 93.5% respectively.
+- CNNS performed worse, with a recall of 86.3%. 
+- Ranked from best to worst: ResNet50, EffB0, IV3, CNN. 
+
+
+
