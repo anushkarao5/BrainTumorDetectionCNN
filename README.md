@@ -117,9 +117,9 @@ Based on the above observations, we know that different models have different st
   <img src="Images/AvgPvR.png" alt="Image Alt Text" width="700px" height="auto">
 </p>
 
-- Our best classifier based on average tumor recall is the efficient net model (95.7% average recall and 95.6% average precision.
+- Our best classifier based on average tumor recall is the efficient net model (95.7% average recall and 95.6% average precision).
 - ResNet is a close second, with an average recall of 94.7% and an average precision of 95.3%. 
-- Our three-level CNN fell in ranks with an average tumor recall of 93.8% and an average tumor precision of 93.6%. 
+- Our three-level CNN came in third place with an average tumor recall of 93.8% and an average tumor precision of 93.6%. 
 - The IV3 model performed worse both in terms of recall and precision. Average recall was just short of 90% and average precision was 90.1%. 
 
 **So which classifier is the best?**
