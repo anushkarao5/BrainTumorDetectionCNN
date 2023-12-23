@@ -3,7 +3,7 @@
 Access the full notebook [here](https://nbviewer.org/github/anushkarao5/BrainTumorDetectionCNN/blob/main/BrainTumorDetection.ipynb) for all code and in-depth explanations. 
 
 ## Table of Contents
-- [Project Objective](#project-objective)
+- [Project Objectives](#project-objective)
 - [Project Outcomes](#project-outcomes)
 - [Background Information](#background-information)
 - [Understanding the Data](#understanding-the-data)
@@ -16,9 +16,9 @@ Access the full notebook [here](https://nbviewer.org/github/anushkarao5/BrainTum
 The objectives of this project are to:
 - Develop a convolutional neural network specialized in detecting gliomas, meningiomas, and pituitary brain tumors
 - Utilize pre-trained models to increase recall in tumor classes
-- 
+
 ## Project Outcomes 
-- Developed a simple CNN with a minimum of 86.5% recall in all tumor classes and an average recall of 93.8% in tumor classes
+- Developed a simple CNN with a minimum of 86.5% recall in all tumor classes and an average recall of 93.8% in the tumor classes
 - Applied transfer learning to EfficientNetB0 model to achieve over 95% recall in all tumor classes and 95.7% average recall in the tumor classes
 
 ## Background Information
