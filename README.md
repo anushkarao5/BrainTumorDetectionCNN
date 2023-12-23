@@ -105,7 +105,7 @@ To evaluate model performance, let us see how well each classifier recognizes ea
 
 - ResNet50 performed the best with a recall of 99.3%. The simple CNN followed shortly after with a recall of 98.6% and 2.5% greater precision than ResNet. 
 - EffB0 has a recall of 96.7% and perfect precision. IV3 followed shortly after with both the lowest recall and precision of all the classifiers (94.7% and 94.1% respectively). 
-- Note that all three classifiers have the best recall in this class. 
+- Note that all three classifiers have the highest recall in this class. 
 - Ranked from best to worst: ResNet50, CNN, EffB0, and IV3
 
 
