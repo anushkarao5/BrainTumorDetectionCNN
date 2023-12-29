@@ -124,7 +124,7 @@ Based on the above observations, we know that different models have different st
 
 **So which classifier is the best?**
 - It's probably easier to determine which classifier is not the best-- Inception V3. This classifier has a significantly lower average tumor recall due to the low recall in the glioma class. The other classifiers are a bit more difficult to determine. The best classifiers depend on which disease we are trying to detect!
-- CNNS and EffB0s are best for glioma, ResNet50 is the best for meningiomas, and ResNets and CNNs are the best for pituitary.
+- CNNS and EffB0s are best for glioma, ResNet50 is the best for meningiomas, and ResNets and CNNs are the best for pituitary tumors.
 - *So our choice of which classifier depends on the type of tumor we are screening for.*
 - However, if we want a certain answer, based on the macro tumor recall, EffB0 is the best classifier.
 - Here we have found classifiers that are able to detect the tumor class for each with a minimum of 95% recall. Not too bad!
