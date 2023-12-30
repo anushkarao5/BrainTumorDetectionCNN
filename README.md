@@ -3,7 +3,7 @@
 Access the full notebook [here](https://nbviewer.org/github/anushkarao5/BrainTumorDetectionCNN/blob/main/BrainTumorDetection.ipynb) for all code and in-depth explanations. 
 
 ## Table of Contents
-- [Project Objectives](#project-objective)
+- [Project Objectives](#project-objectives)
 - [Project Outcomes](#project-outcomes)
 - [Background Information](#background-information)
 - [Understanding the Data](#understanding-the-data)
